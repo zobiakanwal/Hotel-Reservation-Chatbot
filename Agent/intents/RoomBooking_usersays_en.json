@@ -1,0 +1,279 @@
+[
+  {
+    "id": "50db1426-678b-43fe-a4e2-7504016e4c3c",
+    "data": [
+      {
+        "text": "edward",
+        "alias": "firstname",
+        "meta": "@sys.given-name",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "cullins",
+        "alias": "lastname",
+        "meta": "@sys.last-name",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "5e79c3c9-ba7b-4b2c-840b-b1c7d227e09b",
+    "data": [
+      {
+        "text": "book hotel",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1551796188
+  },
+  {
+    "id": "e80fb7a1-1e4f-403a-8eb8-5558b49ea529",
+    "data": [
+      {
+        "text": "reserve a room",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1551785624
+  },
+  {
+    "id": "18637b31-c133-4f24-b8bc-437719b12eea",
+    "data": [
+      {
+        "text": "book a room",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1551785624
+  },
+  {
+    "id": "19e24f8e-d8b7-4ea3-a0d5-fa548a671ac5",
+    "data": [
+      {
+        "text": "i ",
+        "userDefined": false
+      },
+      {
+        "text": "want a room",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1551781332
+  },
+  {
+    "id": "b83440c3-a64d-42c0-b861-2bc7ff62f680",
+    "data": [
+      {
+        "text": "i need an ",
+        "userDefined": false
+      },
+      {
+        "text": "standard",
+        "alias": "RoomType",
+        "meta": "@RoomType",
+        "userDefined": true
+      },
+      {
+        "text": " room.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1551478634
+  },
+  {
+    "id": "14545811-4334-41da-a2c2-3e44806c122c",
+    "data": [
+      {
+        "text": "I want a ",
+        "userDefined": false
+      },
+      {
+        "text": "regular",
+        "alias": "RoomType",
+        "meta": "@RoomType",
+        "userDefined": true
+      },
+      {
+        "text": " room",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1551478634
+  },
+  {
+    "id": "94c02090-eaba-4d02-aab6-dbedba5f4247",
+    "data": [
+      {
+        "text": "i would like to ",
+        "userDefined": false
+      },
+      {
+        "text": "book",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "vip",
+        "alias": "RoomType",
+        "meta": "@RoomType",
+        "userDefined": true
+      },
+      {
+        "text": " room",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1551781332
+  },
+  {
+    "id": "35734e3c-5714-4db7-8b11-24e8e2ccd958",
+    "data": [
+      {
+        "text": "My email is ",
+        "userDefined": false
+      },
+      {
+        "text": "abc@abc.com",
+        "alias": "email",
+        "meta": "@sys.email",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1547418077
+  },
+  {
+    "id": "85bd0fe6-8427-4554-8ad5-6749aabced04",
+    "data": [
+      {
+        "text": "Book",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      },
+      {
+        "text": " hotel for ",
+        "userDefined": false
+      },
+      {
+        "text": "3",
+        "alias": "persons",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " persons.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1551781332
+  },
+  {
+    "id": "679160ec-85f9-4e50-a554-5ffcb1f61573",
+    "data": [
+      {
+        "text": "My name is ",
+        "userDefined": false
+      },
+      {
+        "text": "Edward.",
+        "alias": "firstname",
+        "meta": "@sys.given-name",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548352973
+  },
+  {
+    "id": "c39eb8fc-58be-4a7e-b626-0094d553562e",
+    "data": [
+      {
+        "text": "I want to ",
+        "userDefined": false
+      },
+      {
+        "text": "reserve",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      },
+      {
+        "text": " hotel room.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1551781332
+  },
+  {
+    "id": "6fa57d42-bd69-42ee-9d9f-4cccad27792b",
+    "data": [
+      {
+        "text": "I ",
+        "userDefined": false
+      },
+      {
+        "text": "need a room",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      },
+      {
+        "text": ".",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1551781332
+  },
+  {
+    "id": "39040019-b79c-4581-b814-7132520035c0",
+    "data": [
+      {
+        "text": "I want to ",
+        "userDefined": false
+      },
+      {
+        "text": "book",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      },
+      {
+        "text": " a room.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1551781332
+  }
+]

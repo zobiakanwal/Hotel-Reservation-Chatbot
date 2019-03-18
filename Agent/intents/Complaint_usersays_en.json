@@ -1,0 +1,285 @@
+[
+  {
+    "id": "d6686b99-87a9-45d6-9ff2-c7dae244e84e",
+    "data": [
+      {
+        "text": "I have a ",
+        "userDefined": false
+      },
+      {
+        "text": "feedback",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1551795960
+  },
+  {
+    "id": "1344a449-c414-428c-97b4-2689d37c7200",
+    "data": [
+      {
+        "text": "complaint",
+        "alias": "typeFeedback",
+        "meta": "@typeFeedback",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1551794005
+  },
+  {
+    "id": "53fa27ed-28ca-4ab7-a8ca-fd3f8d8044d7",
+    "data": [
+      {
+        "text": "its a ",
+        "userDefined": false
+      },
+      {
+        "text": "suggestion",
+        "alias": "typeFeedback",
+        "meta": "@typeFeedback",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1551795960
+  },
+  {
+    "id": "62041c5a-67ca-451a-b761-9a5280ad50e5",
+    "data": [
+      {
+        "text": "it\u0027s a ",
+        "userDefined": false
+      },
+      {
+        "text": "suggestion",
+        "alias": "typeFeedback",
+        "meta": "@typeFeedback",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1551789680
+  },
+  {
+    "id": "ec1edea0-c432-48bb-89fe-68a0716be5ef",
+    "data": [
+      {
+        "text": "it is a ",
+        "userDefined": false
+      },
+      {
+        "text": "suggestion",
+        "alias": "typeFeedback",
+        "meta": "@typeFeedback",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1551789680
+  },
+  {
+    "id": "28d1dc0c-9eda-49be-a832-92d3f1dc8173",
+    "data": [
+      {
+        "text": "suggestion",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1551789680
+  },
+  {
+    "id": "d2bd2653-5a43-499f-b8ab-2a8c06d17afb",
+    "data": [
+      {
+        "text": "feedback",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1551792391
+  },
+  {
+    "id": "2f1e7073-463f-4a00-b657-ed09aef04deb",
+    "data": [
+      {
+        "text": "this complaint is about ",
+        "userDefined": false
+      },
+      {
+        "text": "electricity",
+        "alias": "subject",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1551781901
+  },
+  {
+    "id": "af805cd0-cde2-4420-80b4-70b8320d2676",
+    "data": [
+      {
+        "text": "i have to complain",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1551728115
+  },
+  {
+    "id": "ecd667f1-eafd-4ca5-9c6f-83d1ea15a248",
+    "data": [
+      {
+        "text": "have a feedback",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1551796799
+  },
+  {
+    "id": "abb1428f-a0b6-402c-89db-db420dc88161",
+    "data": [
+      {
+        "text": "description is ",
+        "userDefined": false
+      },
+      {
+        "text": "some description",
+        "alias": "description",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": ":",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1551729786
+  },
+  {
+    "id": "9e942399-d8bd-4d40-8e28-d9e6eaa72c3c",
+    "data": [
+      {
+        "text": "the problem is ",
+        "userDefined": false
+      },
+      {
+        "text": "details",
+        "alias": "description",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1551724260
+  },
+  {
+    "id": "bb6c2b86-fb1a-4956-8343-1cb6d5921e31",
+    "data": [
+      {
+        "text": "subject is ",
+        "userDefined": false
+      },
+      {
+        "text": "management",
+        "alias": "subject",
+        "meta": "@sys.any",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1551781901
+  },
+  {
+    "id": "56814433-bd72-46e1-9a43-113a35f6052c",
+    "data": [
+      {
+        "text": "I want to launch a ",
+        "userDefined": false
+      },
+      {
+        "text": "complaint",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1551781600
+  },
+  {
+    "id": "4684d254-c0b8-4f32-815d-16d1916112f3",
+    "data": [
+      {
+        "text": "have a ",
+        "userDefined": false
+      },
+      {
+        "text": "complaint",
+        "alias": "typeFeedback",
+        "meta": "@typeFeedback",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1551781600
+  },
+  {
+    "id": "c6b6e640-e257-49b3-94d7-93def60f42f9",
+    "data": [
+      {
+        "text": "I have a ",
+        "userDefined": false
+      },
+      {
+        "text": "complaint",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1551781600
+  },
+  {
+    "id": "3dcb8dfb-04ca-496e-b544-97ba72d484f9",
+    "data": [
+      {
+        "text": "I need to ",
+        "userDefined": false
+      },
+      {
+        "text": "complain",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " about something",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1551781600
+  }
+]

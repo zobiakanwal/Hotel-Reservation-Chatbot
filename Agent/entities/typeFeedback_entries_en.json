@@ -1,0 +1,15 @@
+[
+  {
+    "value": "suggestion",
+    "synonyms": [
+      "suggestion"
+    ]
+  },
+  {
+    "value": "complaint",
+    "synonyms": [
+      "complaint",
+      "complain"
+    ]
+  }
+]

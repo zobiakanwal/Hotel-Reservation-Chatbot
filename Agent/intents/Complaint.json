@@ -1,0 +1,83 @@
+{
+  "id": "bccac071-5439-4785-b941-8344b6c858d8",
+  "name": "Complaint",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "complaint",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "0bad7724-2baf-48d8-9ed8-0816e262ca37",
+          "required": true,
+          "dataType": "@typeFeedback",
+          "name": "typeFeedback",
+          "value": "$typeFeedback",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Is it a suggestion or complaint?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "a89aedf4-9d13-45a1-9a4c-b2bbd32fa1eb",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "subject",
+          "value": "$subject",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please write a subject for $typeFeedback."
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "8e7acc28-bc91-4d18-8c9a-f61224f1a6ff",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "description",
+          "value": "$description",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Let us know the details of your $typeFeedback please."
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "skype",
+          "lang": "en",
+          "title": "chooe your feedback type",
+          "replies": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1551882832,
+  "fallbackIntent": false,
+  "events": []
+}

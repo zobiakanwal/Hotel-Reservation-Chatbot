@@ -1,0 +1,71 @@
+{
+  "id": "8a244c5e-2937-46a3-af8e-c290b4b5a9d8",
+  "name": "Feedback",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "b4c16f61-8652-4593-98b1-179d1880472f",
+          "required": true,
+          "dataType": "@feedback",
+          "name": "feedback",
+          "value": "$feedback",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Is it a suggestion or complaint?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "5bd27c6e-7c7b-4438-ab98-22cf15ccb881",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "subject",
+          "value": "$subject",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please provide a subject for your suggestion."
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "0ef7eaa9-558b-403a-a9e0-2c546a66260b",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "description",
+          "value": "$description",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Let us know the description of your suggestion."
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": -1,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1551790834,
+  "fallbackIntent": false,
+  "events": []
+}

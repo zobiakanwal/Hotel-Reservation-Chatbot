@@ -1,0 +1,116 @@
+{
+  "id": "fd3278e8-be32-422a-9510-ef6699616f6c",
+  "name": "RoomBooking",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "RoomBooking",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "29892e02-414c-4d66-987a-19d95128b451",
+          "required": true,
+          "dataType": "@sys.given-name",
+          "name": "firstname",
+          "value": "$firstname",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What is your first name?"
+            },
+            {
+              "lang": "en",
+              "value": "Let me know your first name"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "8c61cd66-3845-4ebe-afe3-93bd98fbc5f9",
+          "required": true,
+          "dataType": "@sys.last-name",
+          "name": "lastname",
+          "value": "$lastname",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Your last name?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "e22d544a-f5b1-49ca-9df1-df30ad780039",
+          "required": true,
+          "dataType": "@sys.number",
+          "name": "persons",
+          "value": "$persons",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Book room for how many persons?"
+            },
+            {
+              "lang": "en",
+              "value": "For how many people you want to book hotel room?"
+            },
+            {
+              "lang": "en",
+              "value": "How many people you are?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "10f508ca-ad92-4da8-b523-0a05acd040d6",
+          "required": true,
+          "dataType": "@sys.email",
+          "name": "email",
+          "value": "$email",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please tell me your email for further contact."
+            },
+            {
+              "lang": "en",
+              "value": "Let me know your email address."
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "715106dd-8721-4f44-aa09-12b437fa457b",
+          "required": true,
+          "dataType": "@RoomType",
+          "name": "RoomType",
+          "value": "$RoomType",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What type of room you want?"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Something went wrong"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1551872417,
+  "fallbackIntent": false,
+  "events": []
+}
